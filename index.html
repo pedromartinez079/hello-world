@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="">
+      <h1 id="title">My Form</h1>
+      <p id="description">this form helps me to practice how to create an html page</p>
+    </div>
+
+    <div class="">
+      <form id="survey-form" class="myform" action="index.html" method="post">
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" name="name" value="" placeholder="Enter your name" required><br>
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" name="email" value="" placeholder="Enter your email" required><br>
+        <label id="number-label" for="number">Age (optional)</label>
+        <input id="number" type="number" name="number" value="" min="18" max="100" placeholder="Enter your age"><br>
+        <select id="dropdown" class="" name="">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+
+        </select><br>
+        <input type="radio" name="recommend" value="attribute"> Maybe<br>
+        <input type="radio" name="recommend" value="attribute"> Definitely<br>
+        <input type="radio" name="recommend" value="attribute"> Not sure<br>
+
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+        <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br>
+
+        <textarea name="name" rows="8" cols="80"></textarea><br>
+
+        <button id="submit" type="submit" name="button"></button>
+
+      </form>
+    </div>
+
+  </body>
+</html>
